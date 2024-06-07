@@ -58,6 +58,31 @@ Markdown 文本编译器 <br>
 
 
 
+## 创建表格
+名称|能力|排名
+--|:--:|--:
+钢铁侠|有钱|1
+蜘蛛侠|帅|2
+雷神|NB爹|3
 
+## 代码
+```c
+      #include<stdio.h>
+      int main(void){
+	printf("test code\n");
+	return 0;
+      }
 
-
+```
+```cpp
+	#include<stdio.h>
+	using namespace std;
+```
+```python
+	import<os>
+```
+```bash
+	echo "测试"
+	ls -l
+	ps aux
+```
