@@ -60,6 +60,8 @@
    git remote add origin "ssh地址" //为ssh仓库地址创建别名为origin
 ```
 ## 本地设备与云端仓库的交互逻辑
+
+![例图](C://Users//86185//Desktop//github图片//本地仓库与云端仓库的交互逻辑.png)
 ```c
     git add code.c //添加内容
     git rm //删除本地文件并删除仓库数据
