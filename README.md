@@ -20,7 +20,7 @@
 ### Branch 分支
    * 在仓库中可以包含多个分支，分支才是代码文件的第一存储单位，默认的仓库主分支为master/main
    * 不仅可以管理代码存储，还便于多人协作开发
-[https://i.postimg.cc/6QMtWWJr/image.png](https://www.github.com "点击访问")
+![](https://github.com/20230912jyc/-/blob/master/%E4%BB%93%E5%BA%93.png)
 
 ## 仓库内容
    1. Code，资源存储，代码资源，二进制，项目管理脚本，许可证等等
