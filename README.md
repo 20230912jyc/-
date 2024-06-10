@@ -59,10 +59,31 @@
    git remote remove origin //删除origin别名
    git remote add origin "ssh地址" //为ssh仓库地址创建别名为origin
 ```
-##本地设备与云端仓库的交互逻辑
+## 本地设备与云端仓库的交互逻辑
 ```c
     git add code.c //添加内容
+    git rm //删除本地文件并删除仓库数据
+    git restroe //恢复被删除（仓库存在）
 ```
+
+## 代码更新的依赖关系被破坏
+本地内容要比云端新，完成更新替换，但是如果直接修改云端内容，导致本地内容无法再次提交，先拉取git pull云端内容，与本地内容合并或操作，而后再次推即可
+```c
+    git pull --rebase origin master
+    git rebase --skip //忽略旧版，更新本地后可以上传
+    git rebase --abort //忽略新版，此时还不能上传
+    git rebase --continue //版本合并，解决冲突后可以直接上
+```
+
+## 下载开源代码
+```c
+    git clone "https仓库地址"  //下载开源项目code资源
+```
+
+## 分支Branch
+关于分支的相关命令，创建分支，选择分支，合并分支等等
+
+
 
 
 
@@ -159,3 +180,13 @@ Makedown 文本修饰语言，用特殊符合修饰正文效果
 ```
 ### 超链接
 [Github](https.github.com)
+
+
+## 执行
+   1. 先vi 名字
+```c
+   //写完后
+   git add 名字
+   git commit -m "网站名"
+   git push origin master
+```
