@@ -40,20 +40,25 @@
 
 ## 设备认证
    1. 如何让网站的账户与设备绑定，后续完成代码的管理，上传下载
-    * git init //创建本地仓库 后续对仓库的操作，都要在仓库位置（master）
-    * git config --list //查看git的配置文件
-    * git config --global user.email "邮箱"
-    * git config --global user.name "用户名" //以上两步是为了SSH远程访问
-    * ssh-keygen -t rsa -C "注册邮箱" //创建本地密文
-    * 去对应的目录查找密文文件
-    * 到rsa.pub复制密文，粘贴 setting -> SSH key and GPG ->new ssh key ->粘贴//在网站上操作
-    * ssh -T git@github.com //测试关联是否成功
-    如果出现hi...证明成功
+```c
+   git init //创建本地仓库 后续对仓库的操作，都要在仓库位置（master）
+   git config --list //查看git的配置文件
+   git config --global user.email "邮箱"
+   git config --global user.name "用户名" //以上两步是为了SSH远程访问
+   ssh-keygen -t rsa -C "注册邮箱" //创建本地密文
+```  
+   * 去对应的目录查找密文文件
+   * 到rsa.pub复制密文，粘贴 setting -> SSH key and GPG ->new ssh key ->粘贴//在网站上操作
+```c
+   ssh -T git@github.com //测试关联是否成功
+    //如果出现hi...证明成功
+```
    2. 为目标仓库起别名，定位目标仓库，后续上传
-    * git remote add origin "ssh地址" //为ssh仓库地址创建别名为origin
-    * git remote remove origin //删除origin别名
-    * git remote add origin "ssh地址" //为ssh仓库地址创建别名为origin
-
+```c
+   git remote add origin "ssh地址" //为ssh仓库地址创建别名为origin
+   git remote remove origin //删除origin别名
+   git remote add origin "ssh地址" //为ssh仓库地址创建别名为origin
+```
 ##本地设备与云端仓库的交互逻辑
 ```c
     git add code.c //添加内容
