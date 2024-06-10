@@ -1,4 +1,3 @@
-Markdown 文本编译器 <br>
 
 #GitHub笔记
 
@@ -26,8 +25,8 @@ Markdown 文本编译器 <br>
 
 
 
-##
-
+##Makedown 语言
+Makedown 文本修饰语言，用特殊符合修饰正文效果
 ## 修饰操作符
 
 # (一级标题)
