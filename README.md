@@ -62,7 +62,7 @@
 ```
 ## 本地设备与云端仓库的交互逻辑
 
-![例图](C://Users//86185//Desktop//github图片//本地仓库与云端仓库的交互逻辑.png)
+[![image.png](https://i.postimg.cc/fbzMQ3FW/image.png)](https://postimg.cc/TK4zrPfB)
 ```c
     git add code.c //添加内容
     git rm //删除本地文件并删除仓库数据
