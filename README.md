@@ -35,7 +35,7 @@
 ## Git软件，分布式版本控制系统
     * 仓库管理软件，使用git管理私人代码或企业代码
 [git.png](https://postimg.cc/nXr8jmbv)
-
+![](https://github.com/20230912jyc/-/blob/master/git%E8%BD%AF%E4%BB%B6%E5%88%86%E5%B8%83%E5%BC%8F%E7%AE%A1%E7%90%86%E6%8E%A7%E5%88%B6%E7%B3%BB%E7%BB%9F.png)
 [![git.png](https://i.postimg.cc/XYcnPKsD/git.png)](https://postimg.cc/nXr8jmbv)
     * 仓库管理软件，使用git管理私人代码或企业代码
 
@@ -63,6 +63,7 @@
 ## 本地设备与云端仓库的交互逻辑
 
 [![image.png](https://i.postimg.cc/fbzMQ3FW/image.png)](https://postimg.cc/TK4zrPfB)
+![](https://github.com/20230912jyc/-/blob/master/%E6%9C%AC%E5%9C%B0%E4%BB%93%E5%BA%93%E4%B8%8E%E4%BA%91%E7%AB%AF%E4%BB%93%E5%BA%93%E7%9A%84%E4%BA%A4%E4%BA%92%E9%80%BB%E8%BE%91.png)
 ```c
     git add code.c //添加内容
     git rm //删除本地文件并删除仓库数据
