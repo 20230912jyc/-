@@ -34,7 +34,7 @@
 
 ## Git软件，分布式版本控制系统
     * 仓库管理软件，使用git管理私人代码或企业代码
-
+[git.png](https://postimg.cc/nXr8jmbv)
 [![git.png](https://i.postimg.cc/XYcnPKsD/git.png)](https://postimg.cc/nXr8jmbv)
     * 仓库管理软件，使用git管理私人代码或企业代码
 
